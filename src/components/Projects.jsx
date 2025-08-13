@@ -15,9 +15,13 @@ export default function Projects() {
                 </h1>
 
                 <div className="grid md:grid-cols-2 md:gap-6">
-                    <ProjectCard title="Dakseva" description="Selected for SIH 2024 Finals & scored 2nd best project. Used ResNet-50 for real time queue analysis on 8 parameters. Built over NextJs, ExpressJs & Flask." image="/dakseva.png" />
-                    <ProjectCard title="Jobscout" description="A quick and simple tool for finding jobs in India. Builtin resume analyser for HRs and resume enhancer tool for candidates. Built over NextJs, Flask, PyPDF & Llama." image="/jobscout.png"
-                    />
+                    <ProjectCard title="Dakseva" description="Selected for SIH 2024 Finals & scored 2nd best project. Used ResNet-50 for real time queue analysis on 8 parameters. Built over NextJs, ExpressJs & Flask." image="/dakseva.png" githubUrl="https://github.com/DevyManish/DakVision-SIH24/" url="https://dakseva.vercel.app/" />
+                    <ProjectCard title="Omeet" description="Developed oMeet, an AI-powered video conferencing app using React Native, ExpressJS, WebSockets, and MongoDB to store participant data and enable seamless communication." image="/omeet.png"
+                        githubUrl="https://github.com/DevyManish/omeet-client/" url="https://github.com/DevyManish/omeet-client/releases/tag/v1.0.0" />
+                    <ProjectCard title="Linear Regression Visualizer" description="Built with Next.js & ReCharts for linear regression. Accepts CSV or table input, plots graph, finds equation, correlation, and predicts y from x." image="/visualizer.png"
+                        githubUrl="https://github.com/DevyManish/Linear-Regression-Visualizer" url="https://linear-regression-visualizer.vercel.app/" />
+                    <ProjectCard title="FreeChat" description="A group messaging app built with React, Firebase Firestore, and Tailwind CSS for simple and fast communication and clean responsive design." image="/freechat.png"
+                        githubUrl="https://github.com/DevyManish/FreeChat" url="https://freechatx.vercel.app/" />
                 </div>
 
                 <div className="flex justify-center w-full items-center py-8">
@@ -31,23 +35,3 @@ export default function Projects() {
         </div>
     )
 }
-
-// const ShinyText = ({ disabled = false, speed = 5, className = '' }) => {
-//     const animationDuration = `${speed}s`;
-
-//     return (
-//         <div
-//             className={`flex text-[#b5b5b5a4] py-1 bg-clip-text ${disabled ? '' : 'animate-shine'} ${className} px-3 items-center justify-center gap-3 border-2 border-[#b5b5b5a4] rounded-2xl`}
-//             style={{
-//                 backgroundImage: 'linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 60%)',
-//                 backgroundSize: '200% 100%',
-//                 WebkitBackgroundClip: 'text',
-//                 animationDuration: animationDuration,
-//                 fontSize: '1 rem',
-//                 fontWeight: '700',
-//             }}
-//         >
-//             <span>View More on </span> <Github className="w-5 h-5" color="#b5b5b5a4" />
-//         </div>
-//     );
-// };

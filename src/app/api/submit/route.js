@@ -10,7 +10,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request) {
     try {
-
         const body = await request.json().catch(e => {
             console.error('Failed to parse request body:', e);
             return null;
@@ -35,7 +34,7 @@ export async function POST(request) {
         console.log('Form data received:', { name, email, message });
 
         const { data: supabaseData, error: supabaseError } = await supabase
-            .from('form_submissions')
+            .from('messages')   
             .insert([{ name, email, message }]);
 
         if (supabaseError) {

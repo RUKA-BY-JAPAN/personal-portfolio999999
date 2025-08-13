@@ -4,8 +4,12 @@ import { Lens } from "@/components/ui/lens";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { Github } from "lucide-react";
+import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
+import { Link as Link2 } from "lucide-react";
 
-export function ProjectCard({ title, description, image }) {
+export function ProjectCard({ title, description, image, githubUrl, url }) {
     const [hovering, setHovering] = useState(false);
 
     return (
@@ -40,6 +44,26 @@ export function ProjectCard({ title, description, image }) {
                             {description}
                         </p>
                     </motion.div>
+                    <div className="flex space-x-4 mt-4">
+                        <Link
+                            href={githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 bg-gray-800 hover:bg-gray-700 rounded-xl transition"
+                        >
+                            <FaGithub className="w-6 h-6 text-white" />
+                        </Link>
+
+                        <Link
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 bg-gray-800 hover:bg-gray-700 rounded-xl transition"
+                        >
+                            <Link2 className="w-6 h-6 text-white" />
+                        </Link>
+
+                    </div>
                 </div>
             </div>
         </div>
