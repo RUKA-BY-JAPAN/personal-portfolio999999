@@ -9,16 +9,16 @@ const Footer = () => {
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 s sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
                     © {new Date().getFullYear()}
                     <Link
-                        href="https://twitter.com/l_m_manish"
+                        href="https://t.me/legion_of_doom_2050"
                     >
-                        - Manish Gupta
+                        - SOLO LEVELING MEDA BY D.RUKA
                     </Link>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start items-center">
                     <Link className="ml-3 text-gray-500" href="https://twitter.com/l_m_manish" target="_blank" rel="noopener noreferrer">
                         <IconBrandX stroke={2} />
                     </Link>
-                    <Link className="ml-3 text-gray-500" href="https://www.instagram.com/l_m_manish" target="_blank" rel="noopener noreferrer">
+                    <Link className="ml-3 text-gray-500" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                         <svg
                             fill="none"
                             stroke="currentColor"
