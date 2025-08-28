@@ -12,12 +12,12 @@ import { LiaAndroid } from "react-icons/lia";
 const Skills = () => {
     return (
         <div className="flex flex-col px-8 md:w-[60%] md:px-8 py-6 mt-12 text-white space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold items-start w-full">Areas of Expertise</h2>
+            <h2 className="text-3xl md:text-4xl font-bold items-start w-full">Areas of Expertise – D.ruka</h2>
             <div className="flex flex-col md:flex-row w-full md:items-center justify-between">
                 <Accordion type="single" collapsible className="w-full md:w-2/3 md:pr-8">
                     <AccordionItem value="item-1">
                         <AccordionTrigger>
-                            <span className="flex items-start text-start gap-4 text-lg"><CodeXml size={20} color='white' className="mt-1" /> Web Development</span></AccordionTrigger>
+                            <span className="flex items-start text-start gap-4 text-lg"><CodeXml size={20} color='white' className="mt-1" /> Ruka Web Development</span></AccordionTrigger>
                         <AccordionContent>
                             <span className="flex items-center justify-start text-start gap-2 ml-3"><CircleSmall size={10} color='white' className='mt-1' />Single Page Applications,</span>
                         </AccordionContent>
