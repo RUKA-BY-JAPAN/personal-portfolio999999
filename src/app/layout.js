@@ -15,28 +15,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "DevyManish | Manish Gupta's Portfolio",
-  description: "I'm DevyManish by work and Manish Gupta in real life. I am a passionate web developer showcasing my projects and expertise on this portfolio. Explore my work in web development, MERN projects, web applications, and more!",
+  title: "Rukshan | Solo Leveling's Portfolio",
+  description: "I'm Rukshan by work and Solo-leveling in real life. I am a passionate web developer showcasing my projects and expertise on this portfolio. Explore my work in web development, MERN projects, web applications, and more!",
   keywords: "devymanish, DevyManish, manishguptafr, portfolio, HTML, CSS, portfolio , Manish Gupta, DevyManish portfolio, devymanish portfolio, Manish Gupta portfolio, manishguptaa, manishguptafr linkedin, manishguptafr website, web developer, MERN projects, web applications",
   author: "Manish Gupta",
   canonical: "https://www.manishguptaa.me",
   openGraph: {
-    title: "DevyManish | Manish Gupta's Portfolio",
+    title: "Rukshan | Solo Leveling's Portfolio",
     description: "I'm DevyManish by work and Manish Gupta in real life. I am a passionate web developer showcasing my projects and expertise on this portfolio. Explore my work in web development, MERN projects, web applications, and more!",
-    url: "https://www.manishguptaa.me",
+    url: "https://solo-leveling-mine-web-x.vercel.app/",
     type: "website",
     images: [
       {
         url: "http://www.manishguptaa.me/src/assets/devymanish-manish-gupta-profile.png",
         width: 800,
         height: 600,
-        alt: "DevyManish | Manish Gupta's Portfolio",
+        alt: "Rukshan | Solo Leveling's Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "DevyManish | Manish Gupta Portfolio",
+    title: "Rukshan | Solo Leveling Portfolio",
     description: "I'm DevyManish by work and Manish Gupta in real life. I am a passionate web developer showcasing my projects and expertise on this portfolio. Explore my work in web development, MERN projects, web applications, and more!",
     images: ["http://www.manishguptaa.me/src/assets/devymanish-manish-gupta-profile.png"],
   },
