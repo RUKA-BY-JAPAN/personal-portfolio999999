@@ -63,14 +63,14 @@ export const links2 = [
         icon: (
             <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://twitter.com/l_m_manish",
+        href: "https://t.me/legion_of_doom_2050",
     },
     {
         title: "GitHub",
         icon: (
             <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://www.github.com/devymanish",
+        href: "https://www.github.com/SOLO-LEVELING-IN-RUKSHAN",
     },
 ];
 
@@ -85,8 +85,8 @@ export const experience = [
             "/jisulogo.png",
     }, {
         title: "Web Mentor",
-        dates: "2023-2025",
-        location: "Google Developer Student Clubs",
+        dates: "2023-2024",
+        location: "VIRON PVT",
         description:
             "Served as web mentor for Google Developer Student Clubs. Conducted workshops on web development and cloud computing. Organized hackathons and coding competitions.",
         image:
@@ -95,7 +95,7 @@ export const experience = [
     }, {
         title: "Software Developer Intern",
         dates: "Feb 2025 - April 2025",
-        location: "Taleniq Technologies Pvt Ltd.",
+        location: "WAYABA CAMPUS",
         description:
             "Worked as a software developer intern at Taleniq Technologies Pvt Ltd. Developed backend for android applications using firebase. Worked on serverless computing and cloud functions.",
         image:
